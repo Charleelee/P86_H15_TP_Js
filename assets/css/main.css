@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+
+.container {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.soustitre {
+	margin-top: 0;
+	color: #333;
+}
+
+#highlight {
+	color: #FF2E4C;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	line-height: 1.6em;
+ 	font-weight: 300;
+	color: #FF2E4C;
+}
+
+h1,
+h3 {
+	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	line-height: 1.6em;
+ 	font-weight: 300;
+ 	color: #333;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	font-weight: 300;
+ 	color: #333;
+}
+
+nav {
+	margin: 0 auto;
+	width: 500px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 70px;
+}
+
+nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: inherit;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	font-weight: 300;
+ 	color: #333;
+}
+
+button {
+	display: inline-block;
+	height: 40px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	font-weight: 300;
+ 	color: #333;
+}
+
+.exercice {
+	background-color: #EEE;
+}
+
+article table {
+	width: 300px;
+	margin: 16px auto;
+	border-collapse: collapse;
+	background-color: #CCC;
+	border: solid 1px #333;
+}
+
+article table tr {
+	border: solid 1px #333;
+}
+
+article table tr td {
+	font-family: 'Titillium', sans-serif;
+	text-align: center;
+	border: solid 1px #333;
+	color: #222;
+	padding: 6px;	
+}
