@@ -1,41 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
 
-.container {
-	margin: 0 auto;
-	width: 500px;
-}
-
-.soustitre {
-	margin-top: 0;
-	color: #333;
-}
-
-#highlight {
-	color: #FF2E4C;
-}
-
-h1 {
-	margin: 0;
-}
-
-h2 {
-	font-family: 'Roboto', sans-serif;
- 	letter-spacing: 1px;
- 	text-align: center;
- 	line-height: 1.6em;
- 	font-weight: 300;
-	color: #FF2E4C;
-}
-
-h1,
 h3 {
 	font-family: 'Roboto', sans-serif;
  	letter-spacing: 1px;
  	text-align: center;
  	line-height: 1.6em;
  	font-weight: 300;
- 	color: #333;
+ 	margin-bottom: 5px;
+	color: #111;
+}
+
+h1,
+h4 {
+	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	line-height: 1.6em;
+ 	font-weight: 300;
+ 	margin-top: 5px;
+ 	color: #FF2E4C;
 }
 
 p {
@@ -74,37 +58,26 @@ nav ul li a {
  	color: #333;
 }
 
-button {
-	display: inline-block;
-	height: 40px;
-	margin: 0 auto;
-	font-family: 'Roboto', sans-serif;
- 	letter-spacing: 1px;
- 	text-align: center;
- 	font-weight: 300;
- 	color: #333;
+.container-post {
+	background-color: #AAA;
 }
 
-.exercice {
+.content-post-wrap {
+	text-align: center;
+	width: 1060px;
+	margin: 0 auto;
 	background-color: #EEE;
 }
 
-article table {
+.content-post-header {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.content-post {
+	display: inline-block;
 	width: 300px;
-	margin: 16px auto;
-	border-collapse: collapse;
-	background-color: #CCC;
-	border: solid 1px #333;
-}
-
-article table tr {
-	border: solid 1px #333;
-}
-
-article table tr td {
-	font-family: 'Titillium', sans-serif;
-	text-align: center;
-	border: solid 1px #333;
-	color: #222;
-	padding: 6px;	
+	margin: 10px;
 }
