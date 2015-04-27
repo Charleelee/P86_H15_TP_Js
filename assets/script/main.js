@@ -1,6 +1,6 @@
 'use strict';
 $(function() {
-	console.log('Demarrage');
+	smoothscroll();
 });
 
 function div_reveal() {
@@ -12,5 +12,24 @@ function slider() {
 }
 
 function smoothscroll() {
-	
+$("#review-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#review").offset().top
+    }, 2000);
+});
+$("#about-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 2000);
+});
+$("#subscribe-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#subscribe").offset().top
+    }, 2000);
+});
+$(".top-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#top").offset().top
+    }, 2000);
+});
 }
