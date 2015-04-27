@@ -109,8 +109,8 @@ nav ul li a {
 .hidden-div {
 	display: none;
 	position: relative;
-	width: 900px;
-	background-color: #EEE;
+	width: 300px;
+	background-color: #DDD;
 }
 
 .form {
