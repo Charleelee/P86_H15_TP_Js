@@ -12,14 +12,14 @@ function slider() {
 }
 
 function smoothscroll() {
-$("#review-button").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#review").offset().top
-    }, 2000);
-});
 $("#about-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
+    }, 2000);
+});
+$("#review-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#review").offset().top
     }, 2000);
 });
 $("#subscribe-button").click(function() {

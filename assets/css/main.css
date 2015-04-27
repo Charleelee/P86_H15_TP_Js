@@ -12,6 +12,7 @@ h3 {
 }
 
 h1,
+h2,
 h4 {
 	font-family: 'Roboto', sans-serif;
  	letter-spacing: 1px;
@@ -94,6 +95,27 @@ nav ul li a {
 	width: 1000px;
 	height: 500px;
 	background-color: #EEE;
+}
+
+#previous, #next {
+	display: inline-block;
+	position: relative;
+	height: 500px;
+	width: 60px;
+}
+
+#next img {
+	position: absolute;
+	left: 10px;
+	top: 200px;
+	width: 50px;
+}
+
+#previous img {
+	position: absolute;
+	right: 10px;
+	top: 200px;
+	width: 50px;
 }
 
 .container-post {
