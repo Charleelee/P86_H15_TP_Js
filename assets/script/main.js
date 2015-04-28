@@ -3,14 +3,23 @@ $(function() {
     smoothscroll();
 });
 
-function div_reveal() {
-
-}
-
+// JavaScript pour le Slider
+var imageCount = 1;
+var total = 4;
 function slider() {
-
+    var image = document.getElementById('slider');
+    imageCount++;
+    if (imageCount > total) {
+        imageCount = 1;
+    }
+    if (imageCount < 1) {
+        imageCount = total;
+    }
+    image.src = 'assets/images/slides/slide'+imageCount+'.jpg';
 }
+setInterval(slider, 6000);
 
+// jQuery Pour l'effet de smooth scroll
 function smoothscroll() {
     $("#about-button").click(function() {
         $('html, body').animate({
