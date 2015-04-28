@@ -3,13 +3,32 @@ $(function() {
     smoothscroll();
 });
 
-function div_reveal() {
-
-}
-
+var imageCount = 1;
+var total = 4;
 function slider() {
-
+    var image = document.getElementById('slider');
+    imageCount++;
+    if (imageCount > total) {
+        imageCount = 1;
+    }
+    if (imageCount < 1) {
+        imageCount = total;
+    }
+    image.src = 'assets/images/slides/slide'+imageCount+'.jpg';
+    setInterval(slider, 3000);
 }
+
+setInterval(function slider() {
+    var image = document.getElementById('slider');
+    imageCount++;
+    if (imageCount > total) {
+        imageCount = 1;
+    }
+    if (imageCount < 1) {
+        imageCount = total;
+    }
+    image.src = 'assets/images/slides/slide'+imageCount+'.jpg';
+}, 6000);
 
 function smoothscroll() {
     $("#about-button").click(function() {
