@@ -166,14 +166,75 @@ nav ul li a {
 
 .content-post {
 	display: inline-block;
+	position: relative;
 	width: 300px;
 	margin: 10px;
 }
 
+#about-tyler {
+	position: absolute;
+	top: 310px;
+	z-index: 2;
+}
+
+#about-prodigy {
+	position: absolute;
+	top: 310px;
+	left: -324px;
+	z-index: 2;
+}
+
+#about-softmoon {
+	position: absolute;
+	top: 310px;
+	right: 0px;
+	z-index: 2;
+}
+
+#about-ratking {
+	position: absolute;
+	top: 310px;
+	z-index: 2;
+}
+
+#about-action {
+	position: absolute;
+	top: 310px;
+	left: -324px;
+	z-index: 2;
+}
+
+#about-kendrick {
+	position: absolute;
+	top: 310px;
+	right: 0px;
+	z-index: 2;
+}
+
+#about-lightning {
+	position: absolute;
+	top: 310px;
+	z-index: 2;
+}
+
+#about-moon {
+	position: absolute;
+	top: 310px;
+	left: -324px;
+	z-index: 2;
+}
+
+#about-goats {
+	position: absolute;
+	top: 310px;
+	right: 0px;
+	z-index: 2;
+}
+
 .hidden-div {
 	display: none;
-	z-index: 2;
-	width: 300px;
+	width: 948px;
+	height: 490px;
 	background-color: #DDD;
 }
 
