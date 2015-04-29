@@ -4,20 +4,20 @@ $(function() {
 });
 
 // JavaScript pour le Slider
-var imageCount = 1;
-var total = 4;
+var Count_images = 1;
+var total_images = 4;
 function slider() {
     var image = document.getElementById('slider');
-    imageCount++;
-    if (imageCount > total) {
-        imageCount = 1;
+    Count_images++;
+    if (Count_images > total_images) {
+        Count_images = 1;
     }
-    if (imageCount < 1) {
-        imageCount = total;
+    if (Count_images < 1) {
+        Count_images = total_images;
     }
-    image.src = 'assets/images/slides/slide'+imageCount+'.jpg';
+    image.src = 'assets/images/slides/slide'+Count_images+'.jpg';
 }
-setInterval(slider, 6000);
+setInterval(slider, 5000);
 
 // jQuery Pour l'effet de smooth scroll
 function smoothscroll() {
