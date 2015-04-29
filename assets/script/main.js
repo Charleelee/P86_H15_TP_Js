@@ -6,7 +6,7 @@ $(function() {
 // JavaScript pour le Slider
 var Count_images = 1;
 var total_images = 4;
-function slider() {
+function slider(x) {
     var image = document.getElementById('slider');
     Count_images++;
     if (Count_images > total_images) {
