@@ -394,3 +394,11 @@ margin-left:45%;
 #form p label input.value{
     font-family: 'Roboto', sans-serif;
 }
+
+label, input {
+	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 1px;
+ 	text-align: center;
+ 	font-weight: 300;
+ 	color: #333;
+}
