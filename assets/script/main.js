@@ -1,26 +1,25 @@
 'use strict';
+// Init.
 $(function() {
+    console.log('Start!');
     smoothscroll();
-
-
-
 });
 
 // JavaScript pour le Slider
-var imageCount = 1;
-var total = 4;
-function slider() {
+var Count_images = 1;
+var total_images = 4;
+function slider(x) {
     var image = document.getElementById('slider');
-    imageCount++;
-    if (imageCount > total) {
-        imageCount = 1;
+    Count_images++;
+    if (Count_images > total_images) {
+        Count_images = 1;
     }
-    if (imageCount < 1) {
-        imageCount = total;
+    if (Count_images < 1) {
+        Count_images = total_images;
     }
-    image.src = 'assets/images/slides/slide'+imageCount+'.jpg';
+    image.src = 'assets/images/slides/slide'+Count_images+'.jpg';
 }
-setInterval(slider, 6000);
+setInterval(slider, 5000);
 
 // jQuery Pour l'effet de smooth scroll
 function smoothscroll() {
@@ -132,5 +131,98 @@ function submitform() {
         $('#err_msg_age').fadeIn();
     }else {
         $('#err_msg_age').fadeOut();
+    }
+}
+}
+
+// Functions Hide / Show pour les div de la section Review 
+
+function swap_show_hide1() {
+    if (document.getElementById('about-tyler').style.display == 'block') {
+        document.getElementById('about-tyler').style.display = 'none';
+        document.getElementById('img-tyler').style.border = 'none';
+    } else {
+        document.getElementById('about-tyler').style.display = 'block';
+        document.getElementById('img-tyler').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide2() {
+    if (document.getElementById('about-prodigy').style.display == 'block') {
+        document.getElementById('about-prodigy').style.display = 'none';
+        document.getElementById('img-prodigy').style.border = 'none';
+    } else {
+        document.getElementById('about-prodigy').style.display = 'block';
+        document.getElementById('img-prodigy').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide3() {
+    if (document.getElementById('about-softmoon').style.display == 'block') {
+        document.getElementById('about-softmoon').style.display = 'none';
+        document.getElementById('img-softmoon').style.border = 'none';
+    } else {
+        document.getElementById('about-softmoon').style.display = 'block';
+        document.getElementById('img-softmoon').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide4() {
+    if (document.getElementById('about-ratking').style.display == 'block') {
+        document.getElementById('about-ratking').style.display = 'none';
+        document.getElementById('img-ratking').style.border = 'none';
+    } else {
+        document.getElementById('about-ratking').style.display = 'block';
+        document.getElementById('img-ratking').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide5() {
+    if (document.getElementById('about-action').style.display == 'block') {
+        document.getElementById('about-action').style.display = 'none';
+        document.getElementById('img-action').style.border = 'none';
+    } else {
+        document.getElementById('about-action').style.display = 'block';
+        document.getElementById('img-action').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide6() {
+    if (document.getElementById('about-kendrick').style.display == 'block') {
+        document.getElementById('about-kendrick').style.display = 'none';
+        document.getElementById('img-kendrick').style.border = 'none';
+    } else {
+        document.getElementById('about-kendrick').style.display = 'block';
+        document.getElementById('img-kendrick').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide7() {
+    if (document.getElementById('about-lightning').style.display == 'block') {
+        document.getElementById('about-lightning').style.display = 'none';
+        document.getElementById('img-lightning').style.border = 'none';
+    } else {
+        document.getElementById('about-lightning').style.display = 'block';
+        document.getElementById('img-lightning').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide8() {
+    if (document.getElementById('about-moon').style.display == 'block') {
+        document.getElementById('about-moon').style.display = 'none';
+        document.getElementById('img-moon').style.border = 'none';
+    } else {
+        document.getElementById('about-moon').style.display = 'block';
+        document.getElementById('img-moon').style.border = '2px solid #FF2E4C';
+    }
+}
+
+function swap_show_hide9() {
+    if (document.getElementById('about-goats').style.display == 'block') {
+        document.getElementById('about-goats').style.display = 'none';
+        document.getElementById('img-goats').style.border = 'none';
+    } else {
+        document.getElementById('about-goats').style.display = 'block';
+        document.getElementById('img-goats').style.border = '2px solid #FF2E4C';
     }
 }

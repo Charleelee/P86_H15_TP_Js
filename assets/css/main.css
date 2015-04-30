@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
 
+/* CSS Generale */
+
 h3 {
 	font-family: 'Roboto', sans-serif;
  	letter-spacing: 1px;
@@ -35,6 +37,8 @@ p {
  	font-weight: 300;
  	color: #333;
 }
+
+/*  CSS Header + Nav  */
 
 .header {
 	text-align: center;
@@ -74,6 +78,8 @@ nav ul li a {
  	color: #EEE;
 }
 
+/*  CSS About Section  */
+
 .about {
 	text-align: center;
 	width: 100%;
@@ -90,6 +96,8 @@ nav ul li a {
 	margin-top: 20px;
 	width: 100px;
 }
+
+/*  CSS Slider  */
 
 .slider-area {
 	text-align: center;
@@ -132,6 +140,8 @@ nav ul li a {
 	width: 50px;
 }
 
+/*  CSS Review Section  */
+
 .container-post {
 	background-color: #DDD;
 }
@@ -161,20 +171,90 @@ nav ul li a {
 	margin: 10px;
 }
 
+.post img {
+	box-sizing:border-box;
+  	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
+	width: 300px;
+	height: 300px;
+}
+
+#about-tyler {
+	position: absolute;
+	top: 310px;
+	z-index: 2;
+}
+
+#about-prodigy {
+	position: absolute;
+	top: 310px;
+	left: -324px;
+	z-index: 2;
+}
+
+#about-softmoon {
+	position: absolute;
+	top: 310px;
+	right: 0px;
+	z-index: 2;
+}
+
+#about-ratking {
+	position: absolute;
+	top: 310px;
+	z-index: 2;
+}
+
+#about-action {
+	position: absolute;
+	top: 310px;
+	left: -324px;
+	z-index: 2;
+}
+
+#about-kendrick {
+	position: absolute;
+	top: 310px;
+	right: 0px;
+	z-index: 2;
+}
+
+#about-lightning {
+	position: absolute;
+	top: 310px;
+	z-index: 2;
+}
+
+#about-moon {
+	position: absolute;
+	top: 310px;
+	left: -324px;
+	z-index: 2;
+}
+
+#about-goats {
+	position: absolute;
+	top: 310px;
+	right: 0px;
+	z-index: 2;
+}
+
 .hidden-div {
 	display: none;
-	position: absolute;
-	top: 350px;
-	z-index: 2;
-	width: 1000px;
+	width: 948px;
+	height: 490px;
 	background-color: #DDD;
 }
+
+/*  CSS Form Section  */
 
 .form {
 	text-align: center;
 	width: 100%;
 	background-color: #AAA;
 }
+
+/*  CSS Footer Section  */
 
 .footer {
 	width: 100%;
