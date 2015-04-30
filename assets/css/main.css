@@ -276,6 +276,8 @@ nav ul li a {
     color: red;
     font-style: italic;
     font-size: 10px;
+    position:absolute;
+    margin-left:55px;
 }
 #form li{
     list-style-type: none;
@@ -299,20 +301,20 @@ margin-right:45%;
 .classage{
 margin-left:45%;
     position:relative;
-   bottom:280px;
+   bottom:346px;
 }
 .classmuspref {
     margin-left: 45%;
     position: relative;
-    bottom: 237px;
+    bottom: 321px;
 }
 #nom {
     position:relative;
-    left:-21px;
+    left:-26px;
 }
 #prenom{
     position:relative;
-    left:-8px;
+    left:-11px;
 }
 #courriel{
     position:relative;
@@ -320,22 +322,22 @@ margin-left:45%;
 }
 #username{
     position:relative;
-    left:22px;
+    left:25px;
 }
 #password{
     position:relative;
-    left:11px;
+    left:10px;
 }
 #password_confirm{
     position:relative;
-    left:48px;
+    left:53px;
 }
 #lnom{position:relative;left:-17px;}
 #lprenom{position:relative;left:-8px;}
-#lcourriel{position:relative;left:23px;}
-#lusername{position:relative;left:19px;}
-#lpassword{position:relative;left:9px;}
-#lconfirm_password{position:relative;left:45px;}
+#lcourriel{position:relative;left:27px;}
+#lusername{position:relative;left:28px;}
+#lpassword{position:relative;left:14px;}
+#lconfirm_password{position:relative;left:58px;}
 #masc{position:relative;
     right:48px; }
 #fem{position:relative;
@@ -345,23 +347,23 @@ margin-left:45%;
 #radio2{position:relative;
     left:-19px;}
 #radio3{position:relative;
-    left:-20px;}
+    left:-21px;}
 #radio4{position:relative;
-    left:-31px;}
+    left:-33px;}
 #preference1{position:relative;
     left:-21px;}
 #preference2{position:relative;
-    left:-35px;}
+    left:-36px;}
 #preference3{position:relative;
-    left:-28px;}
+    left:-27px;}
 #preference4{position:relative;
-    left:-25px;}
+    left:-26px;}
 #preference5{position:relative;
-    left:-25px;}
+    left:-24px;}
 #preference6{position:relative;
     left:-33px;}
 #preference7{position:relative;
-    left:-39px;}
+    left:-40px;}
 #lmasc{position:relative;
     left:-48px;}
 #lfem{position:relative;

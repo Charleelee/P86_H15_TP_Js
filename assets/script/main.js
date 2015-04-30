@@ -49,31 +49,38 @@ function smoothscroll() {
 
 function submitform() {
 
+
 // nom, prenom et courriel
 
-
+    var isok = 0;
     var valuenom = $('#nom').val();
     if(valuenom == ""){
         $('#err0').fadeIn();
+        isok += 1;
 
     }else {
         $('#err0').fadeOut();
+
     }
     var valueprenom = $('#prenom').val();
 
     if(valueprenom == ""){
         $('#err1').fadeIn();
+        isok += 1;
 
     }else {
         $('#err1').fadeOut();
+
     }
     var valuecourriel = $('#courriel').val();
     var reg_pattern = RegExp(".+\@.+\..+");
     if(!reg_pattern.test(valuecourriel)) {
         $('#err2').fadeIn();
+        isok += 1;
 
     }else {
         $('#err2').fadeOut();
+
     }
 
     // nom d'utilisateur , password et password confirm
@@ -81,28 +88,35 @@ function submitform() {
 
     if(valueusername == ""){
         $('#err3').fadeIn();
+        isok += 1;
 
     }else {
         $('#err3').fadeOut();
+
     }
     var valuepassword = $('#password').val();
 
     if(valuepassword == ""){
         $('#err4').fadeIn();
+        isok += 1;
 
     }else {
         $('#err4').fadeOut();
+
     }
     var valuepassword_confirm = $('#password_confirm').val();
 
     if(valuepassword_confirm == ""){
         $('#err5').fadeIn();
+        isok += 1;
 
     }else if(valuepassword_confirm !== valuepassword){
         $('#errpw2').fadeIn();
+        isok += 1;
 
     }else{
         $('#err5').fadeOut();
+
     }
 // sex age et préférences musicales
 
@@ -110,15 +124,19 @@ function submitform() {
 
     if(!issexselected){
         $('#err_msg_sex').fadeIn();
+        isok += 1;
     }else {
         $('#err_msg_sex').fadeOut();
+
     }
     var ismusselected = $("input[name='prefmus']").is(':checked');
 
     if(!ismusselected){
         $('#err_msg_mus').fadeIn();
+        isok += 1;
     }else {
         $('#err_msg_mus').fadeOut();
+
     }
     var isageselected = $("input[name='age']");
     var age_indice = 0;
@@ -129,8 +147,17 @@ function submitform() {
     }
     if(age_indice == 0){
         $('#err_msg_age').fadeIn();
+        isok += 1;
     }else {
         $('#err_msg_age').fadeOut();
+
+    }
+    if (isok == 0){
+        alert('Merci beaucoup! Il est possible que vos informations soient vendues à d\'anonymes corporations!');
+        $("input[type='text']").val('');
+        $("input[type='radio']").attr("checked", false);
+        $("input[type='checkbox']").attr("checked", false);
+
     }
 }
 
