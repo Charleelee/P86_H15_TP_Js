@@ -188,3 +188,129 @@ nav ul li a {
 	margin-top: 10px;
 	width: 50px;
 }
+
+/*################################ form #################################################################*/
+
+.error{
+    display:none;
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+}
+#form li{
+    list-style-type: none;
+
+
+}
+.classnom{
+margin-right:45%;
+}
+.classusername{
+margin-right:45%;
+    position:relative;
+    top:50px;
+}
+.classsexe{
+margin-right:45%;
+    position:relative;
+    top:50px;
+
+}
+.classage{
+margin-left:45%;
+    position:relative;
+   bottom:280px;
+}
+.classmuspref {
+    margin-left: 45%;
+    position: relative;
+    bottom: 237px;
+}
+#nom {
+    position:relative;
+    left:-21px;
+}
+#prenom{
+    position:relative;
+    left:-8px;
+}
+#courriel{
+    position:relative;
+    left:22px;
+}
+#username{
+    position:relative;
+    left:22px;
+}
+#password{
+    position:relative;
+    left:11px;
+}
+#password_confirm{
+    position:relative;
+    left:48px;
+}
+#lnom{position:relative;left:-17px;}
+#lprenom{position:relative;left:-8px;}
+#lcourriel{position:relative;left:23px;}
+#lusername{position:relative;left:19px;}
+#lpassword{position:relative;left:9px;}
+#lconfirm_password{position:relative;left:45px;}
+#masc{position:relative;
+    right:48px; }
+#fem{position:relative;
+    left:4px;}
+#radio1{position:relative;
+    left:-19px;}
+#radio2{position:relative;
+    left:-19px;}
+#radio3{position:relative;
+    left:-20px;}
+#radio4{position:relative;
+    left:-31px;}
+#preference1{position:relative;
+    left:-21px;}
+#preference2{position:relative;
+    left:-35px;}
+#preference3{position:relative;
+    left:-28px;}
+#preference4{position:relative;
+    left:-25px;}
+#preference5{position:relative;
+    left:-25px;}
+#preference6{position:relative;
+    left:-33px;}
+#preference7{position:relative;
+    left:-39px;}
+#lmasc{position:relative;
+    left:-48px;}
+#lfem{position:relative;
+    left:4px;}
+#lradio1{position:relative;
+    left:-3px;}
+#lradio2{position:relative;
+    left:-3px;}
+#lradio3{position:relative;
+    left:-3px;}
+#lradio4{position:relative;
+    left:-3px;}
+#lpreference1{position:relative;
+    left:-3px;}
+#lpreference2{position:relative;
+    left:-3px;}
+#lpreference3{position:relative;
+    left:-3px;}
+#lpreference4{position:relative;
+    left:-3px;}
+#lpreference5{position:relative;
+    left:-3px;}
+#lpreference6{position:relative;
+    left:-3px;}
+#lpreference7{position:relative;
+    left:-3px;}
+#submit_form{
+    position:relative;bottom:200px;
+}
+#form p label input.value{
+    font-family: 'Roboto', sans-serif;
+}

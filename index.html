@@ -211,67 +211,67 @@
         </div>
 		<div id="form">
 	    <form>
-	        <fieldset>
-	            <legend>Informations personnelles</legend>
+
+                                 <div  class="classnom">Entrer vos informations
 	            <ul id="nom_prenom_courriel">
-	                <li><label for="nom">Nom :*</label><input class="checkentry" type="text" id="nom"/><span id="err0" class="error">Champ obligatoire</span></li>
-	                <li><label for="prenom">Prénom :*</label><input class="checkentry" type="text" id="prenom"/><span id="err1" class="error">Champ obligatoire</span></li>
-	                <li><label for="courriel">Adresse courriel :*</label><input class="checkentry" type="text" id="courriel"/><span id="err2" class="error">Champ obligatoire</span></li>
+	                <li><input class="checkentry" type="text" id="nom"/><label id="lnom" for="nom">Nom*</label>
+                        <span id="err0" class="error">Champ obligatoire</span></li>
+	                <li><input class="checkentry" type="text" id="prenom"/> <label id="lprenom" for="prenom">Prénom*</label>
+                        <span id="err1" class="error">Champ obligatoire</span></li>
+	                <li><input class="checkentry" type="text" id="courriel"/> <label id="lcourriel" for="courriel">Adresse courriel*</label>
+                        <span id="err2" class="error">Entrer une adresse courriel valide</span></li>
 	            </ul>
-	        </fieldset>
-	        <fieldset>
-	            <legend>Utilisateur/mot de passe</legend>
+                                     </div>
+                              <div class="classusername">Créer votre utilisateur
 	            <ul id="username_password">
 	                <li>
-	                    <label for="username">Nom d'utilisateur :*</label><input class="checkentry" type="text" id="username"/>
+	                    <input class="css_input_text" type="text" id="username"/>    <label id="lusername" for="username">Nom d'utilisateur*</label>
 	                    <span id="err3" class="error">Champ obligatoire</span>
-	                    <span id="erruser" class="error">Le nom d'utilisateur ne réponds pas aux exigences</span>
+
 
 	                </li>
 	                <li>
-	                    <label for="password">Mot de passe :*</label><input class="checkentry" type="text" id="password"/>
+	                    <input class="css_input_text" type="text" id="password"/> <label id="lpassword" for="password">Mot de passe*</label>
 	                    <span id="err4" class="error">Champ obligatoire</span>
-	                    <span id="errpw1" class="error">Les deux champs mot de passe ne sont pas identiques</span>
+
 	                </li>
 	                <li>
-	                    <label for="password_confirm">Confirmer mot de passe :*</label><input class="checkentry" type="text" id="password_confirm"/>
+	                   <input class="css_input_text" type="text" id="password_confirm"/>   <label id="lconfirm_password" for="password_confirm">Confirmer mot de passe*</label>
 	                    <span id="err5" class="error">Champ obligatoire</span>
 	                    <span id="errpw2" class="error">Les deux champs mot de passe ne sont pas identiques</span>
 	                </li>
 	            </ul>
-	        </fieldset>
-	        <fieldset>
-	            <legend>Genre</legend>
+                           </div>
+                        <div class="classsexe">Indiquer votre sexe
 	            <div id="sexe">
-	                <label for="masc">Homme</label><input type="radio" id="masc" name="h/f"/>
-	                <label for="fem">Femme</label><input type="radio" id="fem" name="h/f"/>
-	                <span id="errh/f" class="error">Vous devez indiquer votre genre</span>
+	               <input type="radio" id="masc" name="sex"/>       <label id="lmasc" for="masc">Homme</label>
+	               <input type="radio" id="fem" name="sex"/>    <label id="lfem" for="fem">Femme</label>
+	                <span id="err_msg_sex" class="error">Vous devez indiquer votre genre</span>
 	            </div>
-	        </fieldset>
-	        <fieldset>
-	            <legend>Catégorie d'âge *</legend>
+                         </div>
+                       <div class="classage">Indiquer votre catégorie d'âge
 	            <ul id="categorie_age">
-	                <li><label for="radio1">12-19 ans</label><input type="radio" id="radio1" name="age_name"></li>
-	                <li><label for="radio2">20-29 ans</label><input type="radio" id="radio2" name="age_name"></li>
-	                <li><label for="radio3">30-45 ans</label><input type="radio" id="radio3" name="age_name"></li>
-	                <li><label for="radio4">46 et +</label><input type="radio" id="radio4" name="age_name"></li>
-	                <li><span id="errage" class="error">Vous devez indiquer votre catégorie d'âge</span></li>
+	                <li><input type="radio" id="radio1" name="age">       <label id="lradio1" for="radio1">12-19 ans</label>
+                        <span id="err_msg_age" class="error">Vous devez indiquer votre catégorie d'âge</span>  </li>
+	                <li><input type="radio" id="radio2" name="age">   <label id="lradio2" for="radio2">20-29 ans</label> </li>
+	                <li><input type="radio" id="radio3" name="age"><label id="lradio4" for="radio3">30-45 ans</label>  </li>
+	                <li><input type="radio" id="radio4" name="age"><label id="lradio5" for="radio4">46 et +</label></li>
+
 	            </ul>
-	        </fieldset>
-	        <fieldset>
-	            <legend>Préférences musicales</legend>
+                     </div>
+                     <div class="classmuspref">Choississez vos styles
 	            <ul>
-	                <li><label for="preference1">Hip-Hop</label><input type="checkbox" id="preference1" name="prefmus"/></li>
-	                <li><label for="preference2">Rock</label><input type="checkbox" id="preference2" name="prefmus"/></li>
-	                <li><label for="preference3">Electro</label><input type="checkbox" id="preference3" name="prefmus"/></li>
-	                <li><label for="preference4">Reggae</label><input type="checkbox" id="preference4" name="prefmus"/></li>
-	                <li><label for="preference5">Country</label><input type="checkbox" id="preference5" name="prefmus"/></li>
-	                <li><label for="preference6">Metal</label><input type="checkbox" id="preference6" name="prefmus"/></li>
-	                <li><label for="preference7">Pop</label><input type="checkbox" id="preference7" name="prefmus"/></li>
-	                <li><span id="errprefmus" class="error">Vous devez sélectionner au moins un genre</span></li>
+	                <li><input type="checkbox" id="preference1" name="prefmus"/>  <label  id="lpreference11" for="preference1">Hip-Hop</label>
+                        <span id="err_msg_mus" class="error">Vous devez sélectionner au moins un genre</span> </li>
+	                <li><input type="checkbox" id="preference2" name="prefmus"/><label id="lpreference12" for="preference2">Rock</label></li>
+	                <li><input type="checkbox" id="preference3" name="prefmus"/><label id="lpreference13" for="preference3">Electro</label></li>
+	                <li><input type="checkbox" id="preference4" name="prefmus"/><label id="lpreference14" for="preference4">Reggae</label></li>
+	                <li><input type="checkbox" id="preference5" name="prefmus"/><label id="lpreference15" for="preference5">Country</label></li>
+	                <li><input type="checkbox" id="preference6" name="prefmus"/><label id="lpreference16" for="preference6">Metal</label></li>
+	                <li><input type="checkbox" id="preference7" name="prefmus"/><label id="lpreference17" for="preference7">Pop</label></li>
 	            </ul>
-	        </fieldset>
-	        <label for="submit_form">Soumettre</label><input type="submit" id="submit_form" onclick="submitform()"/>
+                       </div>
+	        <ul><li><input type="button" id="submit_form" onclick="submitform()" value="Soumettre"/> </li></ul>
 
 	    </form>
 	</div>
