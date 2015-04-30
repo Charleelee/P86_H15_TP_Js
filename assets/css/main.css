@@ -171,6 +171,14 @@ nav ul li a {
 	margin: 10px;
 }
 
+.post img {
+	box-sizing:border-box;
+  	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
+	width: 300px;
+	height: 300px;
+}
+
 #about-tyler {
 	position: absolute;
 	top: 310px;
