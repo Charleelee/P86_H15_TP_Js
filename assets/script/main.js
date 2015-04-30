@@ -100,7 +100,7 @@ function swap_show_hide5() {
 function swap_show_hide6() {
     if (document.getElementById('about-kendrick').style.display == 'block') {
         document.getElementById('about-kendrick').style.display = 'none';
-        document.getElementById('img-action').style.border = 'none';
+        document.getElementById('img-kendrick').style.border = 'none';
     } else {
         document.getElementById('about-kendrick').style.display = 'block';
         document.getElementById('img-kendrick').style.border = '2px solid #FF2E4C';
