@@ -133,7 +133,7 @@ function submitform() {
         $('#err_msg_age').fadeOut();
     }
 }
-}
+
 
 // Functions Hide / Show pour les div de la section Review 
 
